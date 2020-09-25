@@ -29,6 +29,7 @@ h1
 
 h2
 {
+  font-weight: bold;
   margin-bottom: 50px;
   font-size: 18px;
 }
@@ -36,6 +37,7 @@ h2
 h3
 {
   font-weight: 400;
+  font-size: 20px;
   margin-top: 22px;
   margin-bottom: 18px;
 }
@@ -60,7 +62,7 @@ a
 
 .name
 {
-  font-size: 34px;
+  font-size: 32px;
 }
 
 .main-nav
@@ -109,9 +111,9 @@ main secton*/
 
 .paragraph /*This will contain all the paragraphs in the Main section*/
 {
-  width: 70%;
+  width: 80%;
   text-align: center;
-  margin-bottom: 40px;
+  padding-bottom: 20px;
 }
 
 /* ---- Page Elements ---- */
@@ -127,7 +129,7 @@ main secton*/
   width: 70%;
 }
 
-.bio p /*Profile paragraph*/
+p /*Profile and Footer paragraph*/
 {
   font-size: 20px;
   width: 100%;
@@ -138,9 +140,51 @@ main secton*/
 
 .portfolio img /*controls width of all images with Portfolio section*/
 {
-  width: 95%;
+  width: 90%;
 }
 
+footer h2
+{
+  padding-top: 50px;
+  margin-bottom: 50px;
+  font-size: 18px;
+}
+
+.email
+{
+  padding-bottom: 50px;
+}
+
+hr
+{
+  width: 90%;
+  margin: 0 auto;
+}
+
+.student,
+.shortcut
+{
+  width: 50%;
+  font-weight: bold;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 18px;
+  color: rgb(74, 73, 73);
+}
+
+.student
+{
+  float:left;
+  text-align: left;
+  padding-left: 15px;
+}
+
+.shortcut
+{
+  float:right;
+  text-align: right;
+  padding-right: 15px;
+}
 /* ================================= 
   Media Queries
 ==================================== */
