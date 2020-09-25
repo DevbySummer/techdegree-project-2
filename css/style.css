@@ -1,0 +1,127 @@
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+/* ================================= 
+  Base Element Styles
+==================================== */
+
+body
+{
+  background: rgb(245, 245, 245);
+  font-family: 'Roboto', 'Ariel', 'sans-serif';
+  color: rgb(74, 73, 73);
+}
+
+h1
+{
+  margin-bottom: 30px;
+}
+
+a
+{
+  color: rgb(74, 73, 73);
+  text-decoration: none;
+}
+
+/* ================================= 
+  Base Layout Styles
+==================================== */
+
+/* ---- Navigation ---- */
+
+.main-header
+{
+  margin-top: 25px;
+  /* text-align: center; */
+}
+
+.name
+{
+  font-size: 34px;
+  letter-spacing: 1.1px;
+}
+
+.main-nav
+{
+  margin-bottom: 70px;
+}
+
+.main-nav li
+{
+  padding-bottom: 5px;
+  font-weight: bold;
+  font-size: 22px;
+  list-style: none;
+}
+
+.main-nav li a
+{
+  background: white;
+  display: block;
+  padding-bottom: 15px;
+  width: 100%;
+  letter-spacing: 1.1px;
+  text-transform: capitalize;
+}
+
+/* ---- Layout Containers ---- */
+
+.container
+{
+    margin: 0 auto;
+    text-align: center;
+}
+
+.portfolio
+{
+  background: white;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.paragraph
+{
+
+}
+
+/* ---- Page Elements ---- */
+
+.bio
+{
+  margin-bottom: 40px;
+  text-align: center;
+}
+
+.bio img
+{
+  width: 70%;
+}
+
+.bio p
+{
+  font-size: 20px;
+  width: 100%;
+  margin: 20px auto;
+  font-weight: 300;
+  color: rgb(128, 128, 128);
+}
+
+.portfolio img
+{
+  width: 95%;
+}
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+/* ---- Float clearfix ---- */
+
+.clearfix::after {
+    content: " ";
+    display: table;
+    clear: both;
+}
