@@ -75,7 +75,8 @@ a
     text-align: center;
 }
 
-.portfolio
+.portfolio /*This will contain all the content in 
+main secton*/
 {
   background: white;
   margin-top: 20px;
@@ -84,23 +85,23 @@ a
 
 .paragraph
 {
-
+  /*This will contain all the paragraphs in the Main section*/
 }
 
 /* ---- Page Elements ---- */
 
-.bio
+.bio /*Profile section*/
 {
   margin-bottom: 40px;
   text-align: center;
 }
 
-.bio img
+.bio img /*Profile img*/
 {
   width: 70%;
 }
 
-.bio p
+.bio p /*Profile paragraph*/
 {
   font-size: 20px;
   width: 100%;
@@ -109,7 +110,7 @@ a
   color: rgb(128, 128, 128);
 }
 
-.portfolio img
+.portfolio img /*controls width of all images with Portfolio section*/
 {
   width: 95%;
 }
