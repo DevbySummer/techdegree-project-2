@@ -15,9 +15,29 @@ body
   color: rgb(74, 73, 73);
 }
 
+h1,
+h2,
+h3
+{
+  letter-spacing: 1.1px;
+}
+
 h1
 {
-  margin-bottom: 30px;
+  margin-bottom: 25px;
+}
+
+h2
+{
+  margin-bottom: 50px;
+  font-size: 18px;
+}
+
+h3
+{
+  font-weight: 400;
+  margin-top: 22px;
+  margin-bottom: 18px;
 }
 
 a
@@ -41,7 +61,6 @@ a
 .name
 {
   font-size: 34px;
-  letter-spacing: 1.1px;
 }
 
 .main-nav
@@ -55,6 +74,10 @@ a
   font-weight: bold;
   font-size: 22px;
   list-style: none;
+}
+
+ul {
+  padding-left: 0;
 }
 
 .main-nav li a
@@ -81,11 +104,14 @@ main secton*/
   background: white;
   margin-top: 20px;
   margin-bottom: 20px;
+  padding-top: 50px;
 }
 
-.paragraph
+.paragraph /*This will contain all the paragraphs in the Main section*/
 {
-  /*This will contain all the paragraphs in the Main section*/
+  width: 70%;
+  text-align: center;
+  margin-bottom: 22px;
 }
 
 /* ---- Page Elements ---- */
