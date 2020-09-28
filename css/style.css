@@ -143,6 +143,11 @@ p /*Profile and Footer paragraph*/
   width: 90%;
 }
 
+.paragraph:last-child
+{
+  padding-bottom: 70px; /* space between last paragraph and footer*/
+}
+
 footer h2
 {
   padding-top: 50px;
@@ -188,6 +193,65 @@ hr
 /* ================================= 
   Media Queries
 ==================================== */
+
+/* 768px and 1024px. */
+
+/* ---- Navigation ---- */
+
+@media (min-width: 768px) 
+{
+  .main-nav
+  {
+    display: inline-block;
+    margin-bottom: 50px;
+  }
+
+  .main-nav li
+  {
+    list-style: none;
+    float: left;
+    margin-right: 45px;
+  }
+
+  .main-nav li a
+  {
+    background: rgb(245, 245, 245);
+    display: block;
+    padding-bottom: 15px;
+    width: 100%;
+    letter-spacing: 1.1px;
+    text-transform: capitalize;
+  }
+
+  /* ---- Header ---- */
+
+  
+  .bio img
+  {
+    float: right;
+    width: 40%;
+    padding-right: 35px;
+    margin-top: 25px;
+  }
+
+  .bio p
+  {
+    float: left;
+    width: 60%;
+    font-size: 24px;
+    line-height: 1.4;
+    padding-right: 5px;
+  }
+
+  /* ---- Main ---- */
+
+  .portfolio img
+  {
+    float: left;
+    width: 50%;
+  }
+
+}
 
 /* ---- Float clearfix ---- */
 
