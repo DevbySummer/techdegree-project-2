@@ -190,6 +190,11 @@ hr
   text-align: right;
   padding-right: 15px;
 }
+
+footer .main-nav
+{
+  display: none;
+}
 /* ================================= 
   Media Queries
 ==================================== */
@@ -223,6 +228,13 @@ hr
     text-transform: capitalize;
   }
 
+  /* ---- Base Element Styles ---- */
+
+  h1
+  {
+    margin-bottom: 35px;
+  }
+
   /* ---- Header ---- */
 
   
@@ -243,12 +255,58 @@ hr
     padding-right: 5px;
   }
 
-  /* ---- Main ---- */
+  /* ---- Page Elements ---- */
 
-  .portfolio img
+  .portfolio
+  {
+    margin-bottom: 0;
+  }
+
+  .portfolio article
   {
     float: left;
     width: 50%;
+  }
+
+  footer
+  {
+    margin-bottom: 40px;
+  }
+
+  footer p
+  {
+    width: 70%;
+  }
+
+  hr
+  {
+    width: 95%;
+  }
+
+  .student
+  {
+    font-size: 15px;
+    padding-left: 20px;
+  }
+
+  .shortcut
+  {
+    display: none;
+  }
+
+  footer
+  {
+    margin-bottom: 20px;
+  }
+
+  footer .main-nav
+  {
+    display: inline-block;
+    padding-top: 25px;
+  }
+  footer .main-nav li
+  {
+    font-size: 15px;
   }
 
 }
