@@ -57,7 +57,6 @@ a
 .main-header
 {
   margin-top: 25px;
-  /* text-align: center; */
 }
 
 .name
@@ -208,7 +207,7 @@ footer .main-nav
   .main-nav
   {
     display: inline-block;
-    margin-bottom: 50px;
+    margin-bottom: 30px;
   }
 
   .main-nav li
@@ -255,14 +254,16 @@ footer .main-nav
     padding-right: 5px;
   }
 
-  /* ---- Page Elements ---- */
+  /* ---- Layout Containers ---- */
 
-  .portfolio
+  .portfolio /* container containing main content */
   {
     margin-bottom: 0;
   }
 
-  .portfolio article
+  /* ---- Page Elements ---- */
+
+  .portfolio article /* Each project group including Image, h3, and paragraph */
   {
     float: left;
     width: 50%;
@@ -283,7 +284,7 @@ footer .main-nav
     width: 95%;
   }
 
-  .student
+  .student /* Student name in Footer*/
   {
     font-size: 15px;
     padding-left: 20px;
@@ -294,15 +295,11 @@ footer .main-nav
     display: none;
   }
 
-  footer
-  {
-    margin-bottom: 20px;
-  }
-
-  footer .main-nav
+  footer .main-nav /* Main-nav in Footer */
   {
     display: inline-block;
     padding-top: 25px;
+    float: right;
   }
   footer .main-nav li
   {
