@@ -209,7 +209,7 @@ footer .main-nav
   .main-nav
   {
     display: inline-block;
-    margin-bottom: 30px;
+    margin-bottom: 25px;
   }
 
   .main-nav li
@@ -235,7 +235,6 @@ footer .main-nav
   }
 
   /* ---- Header ---- */
-
   
   .bio img
   {
@@ -365,6 +364,7 @@ footer .main-nav
 
   .bio 
   {
+    padding-left: 25px;
     width: 90%;
     margin-bottom: 60px;
   }
@@ -372,7 +372,7 @@ footer .main-nav
   .bio img
   {
     float: right;
-    width: 40%;
+    width: 38%;
     margin-top: 25px;
     margin-right: -90px;
   }
@@ -380,7 +380,7 @@ footer .main-nav
   .bio p
   {
     float: left;
-    width: 60%;
+    width: 70%;
     padding-left: 20px;
     padding-right: 10px;
   }
