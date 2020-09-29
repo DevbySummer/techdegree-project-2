@@ -197,7 +197,7 @@ footer .main-nav
   display: none;
 }
 /* ================================= 
-  Media Queries
+  Media Queries 768px
 ==================================== */
 
 /* 768px and 1024px. */
@@ -225,8 +225,6 @@ footer .main-nav
     display: block;
     padding-bottom: 15px;
     width: 100%;
-    letter-spacing: 1.1px;
-    text-transform: capitalize;
   }
 
   /* ---- Base Element Styles ---- */
@@ -253,7 +251,9 @@ footer .main-nav
     width: 60%;
     font-size: 24px;
     line-height: 1.4;
-    padding-right: 5px;
+    padding-right: 9px;
+    padding-left: 25px;
+    text-align: left;
   }
 
   /* ---- Layout Containers ---- */
@@ -302,11 +302,135 @@ footer .main-nav
     display: inline-block;
     padding-top: 25px;
     float: right;
-    padding-right: 20px;
+    padding-left: 20px;
   }
+
   footer .main-nav li
   {
     font-size: 15px;
+  }
+
+  footer .main-nav li:last-child
+  {
+    margin-right: 23px;
+  }
+}
+
+/* ================================= 
+  Media Queries 1024px
+==================================== */
+
+/* ---- Navigation ---- */
+
+@media (min-width: 1024px)
+
+{
+  .main-header
+  {
+    margin-top: 45px;
+  }
+
+  .name
+  {
+    float: left;
+    padding-left: 45px;
+  }
+
+  .main-nav
+  {
+    float: right;
+  }
+
+  .main-nav li
+  {
+    padding-bottom: 5px;
+    font-weight: bold;
+    font-size: 22px;
+    list-style: none;
+  }
+
+  .main-nav li a
+  {
+    background: rgb(245, 245, 245);
+    margin-bottom: 15px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+
+  /* ---- Base Element Styles ---- */
+
+
+  /* ---- Header ---- */
+
+  .bio 
+  {
+    width: 90%;
+    margin-bottom: 60px;
+  }
+  
+  .bio img
+  {
+    float: right;
+    width: 40%;
+    margin-top: 25px;
+    margin-right: -90px;
+  }
+
+  .bio p
+  {
+    float: left;
+    width: 60%;
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+
+  /* ---- Layout Containers ---- */
+
+  .portfolio 
+  {
+    padding-top: 60px;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  /* ---- Page Elements ---- */
+
+  .portfolio article /* Each project group including Image, h3, and paragraph */
+  {
+    float: left;
+    width: 33.33%;
+  }
+
+  footer
+  {
+    margin-bottom: 10px;
+  }
+
+  footer p /* paragraph in Footer*/ 
+  {
+    width: 60%;
+    padding-bottom: 20px;
+  }
+
+  hr
+  {
+    width: 87%;
+  }
+
+  .student /* Student name in Footer*/
+  {
+    font-size: 15px;
+    padding-left: 65px;
+  }
+
+  footer .main-nav
+  {
+    margin-bottom: 0;
+  }
+
+  footer .main-nav li:last-child
+  {
+    margin-right: 56px;
   }
 
 }
